@@ -2,18 +2,10 @@ import React from 'react';
 import { Mail, Phone, Linkedin, Facebook, Heart } from "lucide-react";
 
 export default function Footer() {
-  const services = [
-    "Support Coordination",
-    "Care Management",
-    "Plan Navigation",
-    "Provider Connections",
-    "Funding Guidance"
-  ];
-
   return (
     <footer className="bg-gray-900 text-white py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-12 lg:gap-16 mb-12">
+        <div className="grid md:grid-cols-2 gap-12 lg:gap-16 mb-12">
           <div>
             <div className="flex items-center gap-3 mb-6">
               <img
@@ -44,19 +36,6 @@ export default function Footer() {
                 <Facebook className="w-5 h-5" />
               </a>
             </div>
-          </div>
-
-          <div>
-            <h3 className="font-semibold text-text-[#4A1F7A] mb-6">Our Services</h3>
-            <ul className="space-y-3">
-              {services.map((service, index) => (
-                <li key={index}>
-                  <span className="text-gray-400 hover:text-white transition-colors cursor-default">
-                    {service}
-                  </span>
-                </li>
-              ))}
-            </ul>
           </div>
 
           <div>
