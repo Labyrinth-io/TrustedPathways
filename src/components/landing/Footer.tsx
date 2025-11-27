@@ -16,22 +16,14 @@ export default function Footer() {
               <span className="font-semibold text-xl">Trusted Pathways</span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
-              Dedicated NDIS support coordination that puts you first. Your goals become our mission.
+              Dedicated NDIS support coordination that puts you first.
+              Your goals become our mission.
             </p>
-            <div className="flex gap-4">
-              <a
-                href="https://www.facebook.com/profile.php?id=61574954287896"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-gray-800 hover:bg-[#4A1F7A] flex items-center justify-center transition-colors"
-              >
-                <Facebook className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           <div>
             <h3 className="font-semibold text-lg mb-6">Talk to Us</h3>
+
             <div className="space-y-4">
               <a
                 href="mailto:christine@trustedpathways.com.au"
@@ -42,6 +34,7 @@ export default function Footer() {
                 </div>
                 <span>christine@trustedpathways.com.au</span>
               </a>
+
               <a
                 href="tel:0408941847"
                 className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group"
@@ -50,6 +43,19 @@ export default function Footer() {
                   <Phone className="w-5 h-5" />
                 </div>
                 <span>0408 941 847</span>
+              </a>
+
+              {/* NEW FACEBOOK ROW */}
+              <a
+                href="https://www.facebook.com/profile.php?id=61574954287896"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group"
+              >
+                <div className="w-10 h-10 rounded-full bg-gray-800 group-hover:bg-[#4A1F7A] flex items-center justify-center transition-colors">
+                  <Facebook className="w-5 h-5" />
+                </div>
+                <span>Follow us</span>
               </a>
             </div>
           </div>
