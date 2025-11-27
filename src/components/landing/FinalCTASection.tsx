@@ -23,37 +23,31 @@ export default function FinalCTASection() {
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-white/5 rounded-full translate-x-1/3 translate-y-1/3" />
       <div className="absolute top-1/2 left-1/4 w-48 h-48 bg-pink-500/10 rounded-full blur-3xl" />
 
-      <div className="relative max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-          Ready for Better Support?
-        </h2>
+     <div className="relative max-w-4xl mx-auto text-center">
+  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
+    Ready for Better Support?
+  </h2>
 
-        <p className="text-xl text-purple-200 mb-10 max-w-2xl mx-auto">
-          Let's make your NDIS journey easier, clearer, and stress-free.
-        </p>
+  <p className="text-xl text-purple-200 mb-10 max-w-2xl mx-auto">
+    Let's make your NDIS journey easier, clearer, and stress-free.
+  </p>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Button
-            onClick={scrollToContact}
-            size="lg"
-            className="bg-white text-[#4A1F7A] hover:bg-gray-100 rounded-full px-10 py-6 text-lg font-semibold shadow-xl transition-all hover:shadow-2xl hover:-translate-y-0.5 w-full sm:w-auto"
-          >
-            Book Support Today
-            <ArrowDown className="ml-2 w-5 h-5" />
-          </Button>
+  {/* Centered Primary Button Only */}
+  <div className="flex justify-center">
+    <Button
+      onClick={scrollToContact}
+      size="lg"
+      className="bg-white text-[#4A1F7A] hover:bg-gray-100 rounded-full px-10 py-6 text-lg font-semibold shadow-xl transition-all hover:shadow-2xl hover:-translate-y-0.5"
+    >
+      Book Support Today
+      <ArrowDown className="ml-2 w-5 h-5" />
+    </Button>
+  </div>
 
-          <button
-            onClick={scrollToServices}
-            className="text-purple-200 hover:text-white underline underline-offset-4 font-medium transition-colors"
-          >
-            Learn About Our Services
-          </button>
-        </div>
-
-        <div className="mt-16 grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
-          <a
-            href="mailto:christine@trustedpathways.com.au"
-            className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all group"
+  <div className="mt-16 grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
+    <a
+      href="mailto:christine@trustedpathways.com.au"
+      className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 hover:bg-white/20 transition-all group"
           >
             <p className="text-purple-200 text-sm mb-2">Email Us</p>
             <p className="text-white font-semibold group-hover:underline">
