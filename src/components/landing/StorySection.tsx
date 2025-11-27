@@ -41,15 +41,6 @@ export default function StorySection() {
                 Your goals become our mission, and your independence becomes our priority.
               </p>
             </div>
-
-            <div className="mt-8 flex flex-wrap gap-4">
-              <div className="bg-purple-100 rounded-2xl px-6 py-4">
-                <p className="text-2xl font-bold text-[#4A1F7A]">10+</p>
-                <p className="text-sm text-gray-600">Years Experience</p>
-              </div>
-              <div className="bg-purple-100 rounded-2xl px-6 py-4">
-                <p className="text-2xl font-bold text-[#4A1F7A]">100%</p>
-                <p className="text-sm text-gray-600">Dedicated Care</p>
               </div>
             </div>
           </div>
