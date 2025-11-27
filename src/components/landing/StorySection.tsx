@@ -40,6 +40,13 @@ export default function StorySection() {
               <p className="font-medium text-[#4A1F7A]">
                 Your goals become our mission, and your independence becomes our priority.
               </p>
+            </div>
+
+            
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
