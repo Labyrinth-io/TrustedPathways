@@ -41,7 +41,6 @@ export default function StorySection() {
                 Your goals become our mission, and your independence becomes our priority.
               </p>
             </div>
-
             {/* Removed experience and care stats */}
           </div>
         </div>
