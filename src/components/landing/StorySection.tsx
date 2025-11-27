@@ -41,9 +41,6 @@ export default function StorySection() {
                 Your goals become our mission, and your independence becomes our priority.
               </p>
             </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
