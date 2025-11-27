@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 
 export default function MobileCTA() {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,7 +29,7 @@ export default function MobileCTA() {
         className="w-full bg-[#4A1F7A] hover:bg-[#3D1A66] text-white rounded-full py-6 text-lg font-semibold shadow-lg"
       >
         Get Support Today
-        <ArrowRight className="ml-2 w-5 h-5" />
+        <ArrowDown className="ml-2 w-5 h-5" />
       </Button>
     </div>
   );
