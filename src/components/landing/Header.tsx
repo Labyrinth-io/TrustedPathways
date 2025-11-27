@@ -37,7 +37,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center gap-2">
             <img
-              src="TrustedPathways/Public/TP.webp"
+              src="/TP.webp"
               alt="Trusted Pathways Logo"
               className="h-10 w-auto"
             />

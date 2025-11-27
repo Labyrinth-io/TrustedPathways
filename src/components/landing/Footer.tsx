@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-6">
               <img
-                src="TrustedPathways/Public/TP.webp"
+                src="/TP.webp"
                 alt="Trusted Pathways Logo"
                 className="h-12 w-auto"
               />
