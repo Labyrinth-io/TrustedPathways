@@ -19,7 +19,7 @@ export default function HeroImage() {
                 <div className="w-10 h-10 rounded-full bg-gradient-to-br from-[#4A1F7A] to-[#7C3AED] flex items-center justify-center">
                   <CheckCircle2 className="w-5 h-5 text-white" />
                 </div>
-                <p className="font-semibold text-gray-900 text-sm">Trusted Support</p> 
+                <p className="font-semibold text-gray-900 text-sm">Trusted Support</p>
               </div>
               <p className="text-xs text-gray-500">Support That Lets You Enjoy Life Again.</p>
             </div>
