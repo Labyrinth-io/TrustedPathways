@@ -20,14 +20,6 @@ export default function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.linkedin.com/feed/?trk=onboarding-landing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-gray-800 hover:bg-[#4A1F7A] flex items-center justify-center transition-colors"
-              >
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a
                 href="https://www.facebook.com/profile.php?id=61574954287896"
                 target="_blank"
                 rel="noopener noreferrer"
