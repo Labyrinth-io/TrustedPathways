@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Phone, Linkedin, Facebook, Heart } from "lucide-react";
+import { Mail, Phone, Facebook, Heart } from "lucide-react";
 
 export default function Footer() {
   return (
