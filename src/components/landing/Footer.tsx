@@ -55,7 +55,7 @@ export default function Footer() {
                 <div className="w-10 h-10 rounded-full bg-gray-800 group-hover:bg-[#4A1F7A] flex items-center justify-center transition-colors">
                   <Facebook className="w-5 h-5" />
                 </div>
-                <span>Follow us</span>
+                <span>Follow Us</span>
               </a>
             </div>
           </div>
